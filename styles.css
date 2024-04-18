@@ -1,0 +1,41 @@
+@media print {
+    body > *:not(.printable) {
+        display: none;
+    }
+}
+
+.printable  {
+        page-break-before: always;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 340px; 
+    margin: 20px auto;
+}
+td {
+    border: 1px solid black;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+}
+th {
+    text-align: center;
+    height: 40px; 
+    font-size: 24px;
+}
+.bingo-card {
+    margin-bottom: 40px;
+}
+@page {
+    margin: 0;
+    size: auto; 
+}
+
+@page :first {
+    margin: 0;
+    size: auto;
+    margin-bottom: 0.5cm;
+}
