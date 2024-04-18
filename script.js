@@ -37,7 +37,7 @@
         		// Center cell is an image
         		if (i === 2 && j === 2) {
             		var imgElement = document.createElement("img");
-           			imgElement.src = "Rainbow Image.jpg"; // Replace with your image URL or Base64 data
+           			imgElement.src = "images/rainbowImage.jpg"; // Replace with your image URL or Base64 data
             		imgElement.style.maxWidth = "100%";
             		imgElement.style.maxHeight = "90%";
 					imgElement.style.paddingTop = "10%";
@@ -96,9 +96,9 @@
         }
     }
 
-    document.getElementById('enter-button').addEventListener('keyup', function(event){
+    document.getElementById('numCards').addEventListener('keyup', function(event){
         if (event.key==="Enter"){
-            console.log("hi");
+            console.log("hi :)");
             generateBingoCards();
         }
     });

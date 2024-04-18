@@ -5,7 +5,20 @@
 }
 
 .printable  {
-        page-break-before: always;
+     page-break-before: always;
+}
+
+.logoContainer {
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    width:100vw;
+}
+
+.poop {
+    width: 100vw;
+    padding:20px;
+    border: 2px solid black;
 }
 
 table {
