@@ -38,9 +38,12 @@
         		if (i === 2 && j === 2) {
             		var imgElement = document.createElement("img");
            			imgElement.src = "images/rainbowImage.jpg"; // Replace with your image URL or Base64 data
-            		imgElement.style.maxWidth = "100%";
-            		imgElement.style.maxHeight = "90%";
+            		imgElement.style.maxWidth = "150%";
+            		imgElement.style.maxHeight = "150%";
 					imgElement.style.paddingTop = "10%";
+                    imgElement.style.paddingRight = "0%";
+                    imgElement.style.paddingLeft = "0%";
+                    imgElement.style.paddingBottom = "0%";
            		 	cell.appendChild(imgElement);
         		} else {
             		cell.textContent = numbers[cellIndex++];
