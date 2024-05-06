@@ -4,7 +4,7 @@
     }
 }
 
-.printable-logo-container  {
+.printable  {
      page-break-before: always;
 }
 
@@ -15,16 +15,16 @@
     width:100vw;
 }
 
-.card-div {
+.poop {
     width: 100vw;
     padding:20px;
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 table {
     border-collapse: collapse;
-    width: 600px;
-    height: 680px; 
+    width: 300px;
+    height: 340px; 
     margin: 20px auto;
 }
 td {
@@ -32,15 +32,12 @@ td {
     text-align: center;
     width: 60px;
     height: 60px;
-    font-size: 80px;
-    padding: 20px;
-    font-family: "helvetica neue";
+    font-size: 20px;
 }
 th {
     text-align: center;
     height: 40px; 
-    font-size: 50px;
-    font-family: "helvetica neue";
+    font-size: 24px;
 }
 .bingo-card {
     margin-bottom: 40px;
